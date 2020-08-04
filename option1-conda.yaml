@@ -1,0 +1,9 @@
+name: resnet50
+dependencies:
+- numpy
+- pip
+- python=3.6
+- tensorflow-gpu==1.12.0
+- pip:
+  - azureml-contrib-services
+  - azureml-defaults
